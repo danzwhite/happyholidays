@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/holiday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Holidays!"
+        android:textSize="36sp"
+        android:textColor="@android:color/black"
+        android:paddingLeft="16dp"
+        android:paddingTop="88dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="From Daniel ;)"
+        android:textSize="36sp"
+        android:textColor="@android:color/holo_red_light"
+        android:paddingRight="16dp"
+        android:paddingBottom="80dp"/>
+</RelativeLayout>
